@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+
+    <style type="text/css">
+    
+  h1  {
+             color: white;
+            font-size: 30px;
+              }
+       h5   { 
+            color:#fff;
+           text-shadow:0 0 5px #999;
+           }
+       .center
+                 {
+             max-width:780px;
+             padding :50px;
+             text-align: center;
+                }
+       .elemento
+                 {
+            width:98%;
+            height:auto;
+            overflow:hidden;
+                   }
+       #circle                 
+                   {
+            border-radius: 20px;
+   
+                   }
+
+        .profiles{
+           width:98%;
+           height:auto;
+                  }
+        .profiles li {
+           width:200px;
+           height:150px;
+           float:left;
+           margin-left:50px;
+                     }
+        body 
+                   {
+            color: blue;
+                   }
+        body    {
+            color: blue;
+                     }
+        body    {
+            background-image: url('back.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+                     }
+        .txt1 
+                    {
+            display: inline-block;
+            width: 100%;
+            min-height: 50px;
+            color:#ff0;
+                     }
+        .container
+                     {
+             position : relative;
+            background-color: #1abc9c;
+            padding: 15px;
+            text-align: center;
+            margin-right:-5px;
+            margin-left:0px;
+            margin-bottom:50px;
+            margin-top:50px;
+                }
+         
+         
+        .header {
+
+             width:1858px;
+             height:400px;
+             text-align: left;
+             background-color: #1abc9c; 
+             margin-top:5px;
+             margin-left:5px;
+              }
+            
+        .underheader
+                    {
+             background-color: #ffff00;
+            padding: 15px;
+            text-align: center;
+            margin-top:5px;
+            margin-left:0px;
+            border: 10px solid hsla(0,0%,100%,.5);
+                     }
+        .g3
+                    {
+            
+             height:40px;
+             width:1840px;
+            background-color: tomato;
+         
+           
+                     }
+        .aside1
+                        {
+              width:20%;
+              height:4570px;
+              background-color:#03907a ;
+              float: left;
+              text-align: center;
+              margin-top:5px;
+              margin-left:0px;
+              border: 10px solid hsla(0,0%,100%,.5);
+              font: 15px Bradley Hand, cursive;
+              font-size:13px;
+                          }
+        .main    
+                          {
+            
+            width:900px;
+            height:500px;
+            border: 10px solid hsla(0,0%,100%,.5);
+            display: inline-block;
+            margin-left: 0%;
+            background-color: pink ; 
+           color: white;
+           padding: 10px 20px;
+           border-radius: 20px;
+           background: rgba(0, 0, 0, 0.2);
+           font: 15px Bradley Hand, cursive;
+           font-size:13px;
+                       }
+        .title     
+                      {
+            
+            width:900px;
+            height:500px;
+            border: 10px solid hsla(0,0%,100%,.5);
+            display: inline-block;
+            margin-left: 0%;
+            background-color: #1abc9c;
+            color:white;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            font: 15px Bradley Hand, cursive;
+            font-size:13px;
+                     }
+        .aside2   
+                     {
+              width:20%;
+              height:5460px;
+              background-color:#03907a ;
+              float: right;
+              padding: 10px;
+              text-align: center;
+              margin-top:5px;
+              margin-right:-10px;
+             border: 10px solid hsla(0,0%,100%,.5);
+            font: 15px Bradley Hand, cursive;
+            font-size:14px;
+                     }
+        .time
+                     {
+            border-top-right-radius: 20px;    
+            border-top-left-radius: 20px;    
+            width:1820px;
+            height:5px;
+            background-color: #ff7e00;
+            padding: 15px;
+            text-align: center;
+                      }
+        .skiplink 
+                     {
+            width:1820px;
+            height:50px;
+            background-color: #ff7e00;
+            padding: 15px;
+            text-align: center;
+            color: #f00;
+      
+                      }
+
+        .navigation 
+                       {
+            width:1820px;
+            height:90px;
+            background-color:#808080;
+            padding: 15px;
+            text-align: center;
+            margin-top:5px;
+            margin-left:0px;
+           border: 15px solid hsla(0,0%,100%,.5);
+                     }
+
+        .nav_menu
+                     {
+            background-color: #03907a;
+            padding: 15px;
+            text-align: center;
+                      }
+        .nav_menul 
+                    {
+             width:20%;
+             height:850px;
+             background-color:#03907a;
+             float: left;
+             text-align: center;
+             margin-top:5px;
+             margin-left:0px;
+             border: 10px solid hsla(0,0%,100%,.5);
+            font: 15px Bradley Hand, cursive;
+            font-size:14px;
+                  }
+ 
+         
+         .nav_menu3  {
+              position: absolute;
+              top:50px;
+              right: 100px;
+                      }
+         .nav_menu3  li {
+             display: inline;
+            margin: 0 0 0 200px;    
+                  }
+         .nav_menu3  a {
+            text-transform: uppercase;
+            color: #000000;
+            font-weight: bold;
+            font-size: 22px;
+            text-decoration: none;
+                       }
+         .nav_menu4
+                    {
+              top:50px;
+              right: 100px;
+             
+              float: left;
+              margin-top:5px;
+              margin-left:5px;
+                  }
+         .triangle 
+                    {
+             position: relative;
+             background: #2c3e50;
+             height: 50vh;
+                    }
+
+    .triangle::before 
+                   {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 100px 100px 0 100px;
+            border-color: #2c3e50 transparent transparent transparent;
+            left: 8%;
+            transform: translateX(-50%) translateY(100%);
+                 }
+        .content
+                {
+          display: flex;
+          justify-content: space-between;
+          height: 500px;
+          width: 1830px;
+          background: white;
+          font-family: 'Share Tech', sans-serif;
+          font-size: 68px;
+          color: white;
+          border-radius: 20px;
+          align-items: center;
+          margin: 0;
+          text-shadow: 8px 8px 10px #0000008c;
+          background-color: #343a40;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+          background-color: #fe8f7b;
+          padding: 15px;
+          text-align: justify;
+                 }
+
+        .propaganda  
+                    {
+            
+           background-color:#cef9e2;
+           padding: 15px;
+           text-align: center;
+           float: none;
+                     }
+         
+        .sonic
+                 {
+
+           width:950px;
+           height:2450px;
+            border: 10px solid hsla(0,0%,100%,.5);
+           display: inline-block;
+           margin-left: 0%;
+           background-color: #1abc9c;
+           color:white;
+           border-radius: 20px;
+           background: rgba(0, 0, 0, 0.2);
+           font: 15px Bradley Hand, cursive;
+           font-size:13px;
+                 }
+		
+        .fitas 
+                 {
+            background-color: #1abc9c;
+            padding: 15px;
+            text-align: center;
+                 }
+        .arma 
+                 {
+            background-color: #1abc9c;
+            padding: 15px;
+            text-align: center;
+                 }
+        .videos
+                 {
+            background-color:#1abc9c;
+            padding: 15px;
+            text-align: center;
+                 }
+           
+        .powertext1
+                 {
+           width:950px;
+           height:1050px;
+            border: 10px solid hsla(0,0%,100%,.5);
+           display: inline-block;
+           margin-left: 0%;
+           background-color: #1abc9c;
+           color:white;
+           border-radius: 20px;
+           background: rgba(0, 0, 0, 0.4);
+           font: 15px Bradley Hand, cursive;
+           font-size:13px;
+                 }
+           
+        .nitendo
+                 {
+            width:1820px;
+            height:150px;
+            background-color: #e70012;
+            padding: 15px;
+            text-align: center;
+            margin-top:5px;
+            margin-left:5px;
+                 }
+           
+         
+        .marios {
+          
+            background-color: #000000;
+            padding: 15px;
+            text-align: center;
+            margin-top:0px;
+            margin-left:5px;
+            
+                 }
+
+        .footer  {
+          
+            background-color: #0b561b;
+            padding: 15px;
+            text-align: center;
+            margin-top:0px;
+            margin-left:5px;
+            
+                 }
+         
+         .text3{
+           color:#ffffff;
+
+                 }
+        
+       
+
+            /* Full-width inputs */
+           input[type=text], input[type=password] 
+                  {
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           display: inline-block;
+           border: 1px solid #ccc;
+           box-sizing: border-box;
+                  }
+            /* Extra style for the cancel button (red) */
+        .cancelbtn {
+           width: auto;
+           padding: 10px 18px;
+           background-color: #f44336;
+              }
+
+        button {
+           background-color: #04AA6D;
+           color: white;
+           padding: 14px 20px;
+           margin: 8px 0;
+           border: none;
+           cursor: pointer;
+           width: 5%;
+              }
+
+         button:hover 
+              {
+            opacity: 0.8;
+              }
+   
+           
+         
+          
+
+       .formulary 
+                      {
+           margin-left: 23%;
+           width:960px;
+           height:500px; 
+           color:#000000;
+           background-color:#1abc9c;
+            border: 10px solid hsla(0,0%,100%,.5);
+           border-radius: 20px;
+                      }
+         #hp 
+                     {
+            width: 20%;
+            height: 100px;
+            float: left;    
+            margin: 0 0 0 15px;
+                      }
+
+       .center 
+                      {
+            margin-left: auto;
+            margin-right: auto;
+                       }
+       .card
+                 {
+
+           width: 200px;
+           height: 500px;
+           border-radius:10px;
+           cursor: pointer;
+           margin:10px 15px;
+           background-color: #000000;
+  
+                 }
+   
+      .card1
+                 {
+           float: left;
+           background-image:url(power1.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 300px;
+           width: 200px;
+
+                 }
+        
+      .card2
+                 {
+           float: left;
+           background-image:url(power2.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 300px;
+           width: 200px;
+                 }
+        
+      .card3
+                 {
+           float: left;
+           background-image:url(power3.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 300px;
+           width: 200px;
+                 }
+        
+      .card4
+                 {
+           float: left;
+           background-image:url(power4.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 300px;
+           width: 200px;
+                 }
+      .card5
+                 {
+           float: left;
+           background-image:url(power5.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 300px;
+           width: 200px;
+                 }
+      .card:hover
+                 {
+
+           height: 350px;
+  
+                 }
+      .row
+                {
+           height:100px; /*set height*/
+           border:2px solid blue;
+           width:1200px;
+           height:300px;
+           margin-bottom:10px;
+           padding:10px;    
+               }
+   
+      .col
+               {
+           border:2px solid red;
+           width:1200px;
+           height:300px;
+                }
+     
+      .icon 
+                    {
+            
+            padding: 15px;
+            text-align: center;
+                      }
+
+         
+
+      .menu ul 
+                         {
+
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border-top:1px #eaeaea solid; 
+                         }
+       .menu ul li a 
+                        {
+            display: block;
+            text-decoration: none;
+            color:#4c4c4c;
+            padding: 0.5em 0.8em;
+            transition:0.3s; 
+                   }
+.menu ul li:hover:nth-child(1) { background-color:#ff0000;  }
+.menu ul li:hover:nth-child(2) { background-color:#FFA500;  }
+.menu ul li:hover:nth-child(3) { background-color:#ffff00; }
+.menu ul li:hover:nth-child(4) { background-color: #008000; }
+.menu ul li:hover:nth-child(5) { background-color:#0000FF; }
+.menu ul li:hover:nth-child(6) { background-color:#c943a6; }
+.menu ul li a:hover, .menu ul li a :focus {
+     color:#fff;  
+                   }
+
+            /*single Menu*/
+    .single-menu ul li a {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+                   }
+    .single-menu ul li a .icon {
+            font-size: 1.8em;
+            flex: 0 0 1.5em;
+            margin-right: 4px;
+                   }
+    .single-menu ul li .text {
+            font-size: 1.8em;
+                   }
+    .single-menu ul li .text span {
+            font-size: 40%;
+            display: block;
+            font-weight: lighter;
+                   }
+    @media screen and (min-width: 60em) {
+    .single-menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+                   }
+}
+    .single-menu ul li {
+            flex: 1 0 1.5em;
+            display: flex;
+                   }
+
+                 li{
+            width: 80%;
+            margin: 5px;
+            padding: 3px; 
+                   } 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+table {
+    width: 80%;
+    border: 1px solid #100808;
+
+ 
+}
+th, td {
+    border: 1px solid #eca0a0;
+    padding: 10px;
+}
+@media only screen and (max-width:1110px){
+.container{
+  display: grid;
+grid-templete-columns: repeat(2,1fr);
+}
+@media only screen and (max-width:700px){
+.container{
+  display: grid;
+grid-templete-columns: repeat(2,1fr);
+}
+    </style>
+</head>
+
+<body>
+
+ <div class="container" >
+<div class="time" >
+
+</div>
+<div class="skiplink" >
+
+ <nav class="nav_menu3 ">
+ 
+ <ul>
+<li ><a href="index.html" title="Home">HOME</a></li>
+<li><a href="about.html"  title="About">ABOUT</a></li>
+<li ><a href="gallerys.html"  title="Gallerys">GALLERYS</a></li>
+<li><a href="contact.html"  title="Contact">CONTACT</a></li>
+<li ><a href="others.html"  title="others">OTHERS</a></li>
+
+</ul>
+</nav>
+</div>
+<hr>
+
+
+ <!-- header of website layout -->
+ 
+<div class="navigation" >
+  <img src="barra.jpg" alt= "image15" align="center " width="400" height="100" >
+<button type="submit">Login</button> 
+</div>
+<hr>
+<div class="header">
+ <img src="logok.jpg" align="left" width="600" height="400">
+  <img src="n64.jpg" alt= image align="center " width="50" height="50" >
+<h1>NITENDO 64</h1>
+    <img src="topsite.jpg" align="right" width="250" height="250">
+</div>
+    
+     <div class="underheader">
+          
+    </div>
+
+    <!-- navigation menu for website layout -->
+   <div class="nav_menu">
+ 
+   
+ <img src="barra2.jpg" alt= image width="200" height="80" align="left">
+
+       <nav class="menu single-menu">
+<ul>
+   <li>
+
+      <a href="index.html" title="Home">
+        <div class="icon"><i class="icofont-coffee-mug"></i></div>
+          <div class="text">Home <span> power rangers pimk </span>
+        </div>
+
+      </a>
+    </li>
+    <li>
+      <a href="about.html"  title="Home">
+        <div class="icon"><i class="icofont-sushi"></i></div>
+          <div class="text">About <span>power rangers blue </span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="services.html" title="Home">
+        <div class="icon"><i class="icofont-fast-food"></i></div>
+          <div class="text">Services  <span>power rangers red </span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="news.html"  title="Home">
+        <div class="icon"><i class="icofont-pizza-slice"></i></div>
+          <div class="text">News <span>power rangers green </span>
+        </div>
+      </a>
+    </li>
+ <li>
+          <a href="gallerys.html" title="Home">
+ <div class="icon"><i class="icofont-pizza-slice"></i></div>
+ <div class="text">Gallery <span>power rangers yellow </span>
+ </div>
+       </a>
+     </li>
+ 
+     <li>
+           <a href="contact.html"  title="Home">
+ <div class="icon"><i class="icofont-pizza-slice"></i></div>
+ <div class="text">Contact <span>power rangers black  </span>
+
+</div>
+       </a>
+     </li>
+
+
+   </ul>
+ 
+
+ </div>
+<div class="propaganda" >
+  <img src="konami.jpg" alt= image align="center " width="150" height="150" >
+ <img src="n64.jpg" alt= image align="center " width="100" height="100" >
+ <img src="thq.jpg" alt= image align="center " width="150" height="150" >
+ <img src="fita.jpg" alt= image align="center " width="100" height="100" >
+</div>
+<div class="current-day">
+        <p> Today is August 13th, 2024
+
+    </div>
+       <h1 align="right">Horario</h1> 
+
+
+<img src="capacete2.jpg" alt= imagefina align="left" height="150" width =350" /></br>
+<div class="txt1" id="txt" align="right"></div>
+   <hr>
+
+<div class="">
+ 
+<div class="row">
+    <div class="col">
+         <div class="card card1">
+<h5> CArd1 </h5>
+<p>Power rangers Yellow </p>
+         </div>
+            <div class="card card2 ">
+
+<h5> CArd2 </h5>
+<p>Power rangers Red </p>
+             </div>
+            <div class="card card3 ">
+    
+<h5> CArd3 </h5>
+<p>Power rangers Blue</p>
+         </div>
+            <div class="card card4" >
+
+<h5> CArd4 </h5>
+<p>Power rangers Yellow </p>
+             </div>
+          <div class="card card5">
+
+<h5> CArd5 </h5>
+<p>Power rangers Green </p>
+             </div>
+</div>
+</div>
+<br></br>
+
+
+   <h1 style="background-color:#1abc9c"> N64 ゲーム </h1>
+<table>
+<tr><td><img src="raio2.jpg" alt= image align="left" width="500" height="500" /></dt>
+<td><img src="poster 4.jpg" alt= image2 align="center " height="500" width ="650"  /></td>
+<td><img src="power .jpg" alt= image2 align="center " height="500" width ="500"  /></td>
+</tr>
+
+ </table>
+</div>
+
+
+<div class="triangle">
+
+
+ </div>
+<hr> 
+ <div class="content">
+<span class="color1">Home</span>
+<table >
+<tr>
+<td><img src="logo final.jpg" alt= imagefina align="left" height="400" width =350" /></dt>
+<td><img src="backup3.jpg" alt= imageup align="left" height="400" width =300"  /></td>
+<td><img src="abstrato2.gif" alt= image align="left" height="300" width =200"  /></td>
+</tr>
+
+ </table>
+       
+
+       
+ </div>
+ 
+
+ <nav class="nav_menul">
+
+ 
+ <h1 style="background-color:#1abc9c"> Menu </h1>
+   <img src="toad.jpg" alt= image width="150" height="150"/>
+ <ul>
+<li style="background-color:#ff0000;"><a href="index.html" title="Home">Home</a></li>
+<li style="background-color:#FFA500;"><a href="about.html"  title="Home">About</a></li>
+<li style="background-color:#ffff00;"><a href="services.html" title="Home">Services</a></li>
+<li style="background-color:#008000;;"><a href="news.html"  title="Home">News</a></li>
+<li style="background-color:#0000FF;"><a href="gallerys.html" title="Home">Gallery</a></li>
+<li style="background-color:#ff0090;"><a href="contact.html"  title="Home">Contact</a></li>
+</ul>
+</nav>
+<div class="aside2 ">
+
+  
+    <p></p>
+    <img src="n64 2.jpg" alt= image width="150" height="150"/>
+ <h1 style="background-color:#1abc9c"> Serted links</h1>
+ <nav class="menul2">
+ 
+ <ul>
+<li style="background-color:#ff0000;"><a href="index.html" title="Home">Home</a></li>
+<li style="background-color:#FFA500;"><a href="about.html"  title="Home">About</a></li>
+<li style="background-color:#ffff00;"><a href="services.html" title="Home">Services</a></li>
+<li style="background-color:#008000;;"><a href="news.html"  title="Home">News</a></li>
+<li style="background-color:#0000FF;"><a href="gallerys.html" title="Home">Gallery</a></li>
+<li style="background-color:#ff0090;"><a href="contact.html"  title="Home">Contact</a></li>
+<li style="background-color:#ff0000;"><a href="index.html" title="Home">Home</a></li>
+<li style="background-color:#FFA500;"><a href="about.html"  title="Home">About</a></li>
+<li style="background-color:#ffff00;"><a href="services.html" title="Home">Services</a></li>
+<li style="background-color:#008000;;"><a href="news.html"  title="Home">News</a></li>
+<li style="background-color:#0000FF;"><a href="gallerys.html" title="Home">Gallery</a></li>
+<li style="background-color:#ff0090;"><a href="contact.html"  title="Home">Contact</a></li>
+<li style="background-color:#ff0000;"><a href="index.html" title="Home">Home</a></li>
+<li style="background-color:#FFA500;"><a href="about.html"  title="Home">About</a></li>
+<li style="background-color:#ffff00;"><a href="services.html" title="Home">Services</a></li>
+<li style="background-color:#008000;;"><a href="news.html"  title="Home">News</a></li>
+<li style="background-color:#0000FF;"><a href="gallerys.html" title="Home">Gallery</a></li>
+<li style="background-color:#ff0090;"><a href="contact.html"  title="Home">Contact</a></li>
+</ul>
+</nav>
+</div>
+
+   <h1 style="background-color:#1abc9c"> Mario Bros.</h1>
+    <img src="toad group.jpg" alt= image width="200" height="200"/>
+<hr>
+ <h1 style="background-color:tomato"> Gallerys </h1>
+<div class="main ">
+
+<img src="wave race1.jpg"alt= image5 height="500" width ="600" />
+  
+</div>
+
+<div class="aside1">
+ <h1 style="background-color:#1abc9c"> Pictures </h1>
+
+</div>
+<hr>
+ <h1 style="background-color:tomato"> Sonic history</h1>
+ <div class="sonic">
+
+ 
+ <img src="sonicc.jpg"alt= image5 height="250" width ="300" />
+
+
+
+ </div>
+<div class="fitas">
+
+ <h1 style="background-color:tomato"> Cartridge </h1>
+    <p>007 goldenay 64™
+     1996</p>
+  <img src="007 3.jpg" alt= "" height="130" width ="130" />
+    <p>The Legend of Zelda™ : Ocarina of Time™  
+    1998</p>
+    <img src="fita3.jpg" alt= image2 height="130" width ="130"  />
+      
+      
+ </div>
+
+ <div class="videos">
+  <h1 style="background-color:tomato"> Videos</h1>
+    <video width="320" height="240" controls>
+     <source src="power.mp4" type="video/mp4">
+     <source src="power.ogg" type="video/ogg">
+     Your browser does not support the video tag.
+  </video>
+   
+     <video width="320" height="240" controls>
+     <source src="pokemon stadium1.mp4" type="video/mp4">
+     <source src="pokemon stadium1.ogg" type="video/ogg">
+     Your browser does not support the video tag.
+  </video>
+ </div>
+<div class="ace" >
+   <h2 style="color:white;font-size:200%;background-color:#d4f4e9;">
+         welcome Pather 
+   </h2>
+</div>
+<hr>
+ <h1 style="background-color:tomato"> 007 goldenay </h1>
+ <div class="powertext1">
+
+
+<img src="007 1.jpg" alt= "" height="300" width ="300" />
+<img src="007 2.jpg" alt= ""  height="300" width ="300" />
+ <p class="center ">
+Google users
+GoldenEye 007 is a 1997 first-person shooter video game developed by Rare and published by Nintendo for the Nintendo 64. It is based on the 1995 James Bond film GoldenEye, with the player controlling the secret agent James Bond to prevent a criminal syndicate from using a satellite weapon
+GoldenEye 007 is a 1997 first-person shooter video game developed by Rare and published by Nintendo for the Nintendo 64. It is based on the 1995 James Bond film GoldenEye, with the player controlling the secret agent James Bond to prevent a criminal syndicate from using a satellite weapon. They navigate a series of levels to complete objectives, such as recovering or destroying objects, while shooting enemies. In a multiplayer mode, up to four players compete in several deathmatch scenarios via split-screen.
+
+Development began in January 1995. An inexperienced team led by Martin Hollis developed GoldenEye 007 over two and a half years. The game was conceived initially as a rail shooter in the style of SEGA's Virtua Cop (1994), later developing into a first-person shooter. Rare visited the GoldenEye set for reference, and Eon Productions and Metro-Goldwyn-Mayer allowed them to expand the game with sequences and characters not featured in the film.
+
+GoldenEye 007 was released in August 1997, almost two years after the release of the film but shortly before the release of its sequel Tomorrow Never Dies. It faced low expectations from the gaming media during development. However, it received critical acclaim and sold over eight million copies, making it the third-bestselling Nintendo 64 game. The game was praised for its visuals, gameplay depth and variety, and multiplayer mode. In 1998, it received the BAFTA Interactive Entertainment Award, as well as four awards from the Academy of Interactive Arts & Sciences.
+
+GoldenEye 007 demonstrated the viability of home consoles as platforms for first-person shooters and signalled a transition from Doom-like shooters to a more realistic style. It pioneered features such as atmospheric single-player missions, stealth elements, and multiplayer console deathmatch. The game is considered to be one of the most influential and greatest video games ever made, with many of its elements, such as the Klobb gun, leaving an enduring impression in video game culture. A spiritual successor, Perfect Dark, was released in 2000, while a remake developed by Eurocom, also titled GoldenEye 007, was released in 2010. The original game was rereleased in January 2023 on Xbox One and Xbox Series X/S via Xbox Game Pass or Rare Replay and Nintendo Switch via the Nintendo Switch Online + Expansion Pack.
+</p> 
+</div>
+
+ <div class="nitendo">
+
+    <img src="nitendopro.jpg" alt= ""  id="hp" height="300" width ="300" />
+      
+ </div>
+ <div class="marios">
+    <img src="nitendo.jpg" alt= image9  height="300" width ="300"/>
+    <img src="rod.jpg" alt= image8  height="300" width ="700"/>
+    <img src="pizza.jpg" alt= image8  height="300" width ="300"/>
+        <h2 style="color:white;font-size:200%;">
+          Nickelodeon
+        </h2>
+    </div>
+
+   <div class="footer">
+
+<img src="barra3.jpg" alt= image width="200" height="60" align="left">
+<p> @Nitendo POwer rangers  N64 os jogos são propriedae de seus donos nitendo of america Brasil(bra) </p>
+    </div>
+   
+    <center style="font-size:200%;">
+        Remaining Section
+    </center>
+ </div>   
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Minha primeira página CSS</title>
+<head>
+<meta charset="UTF-8">
+<title>Background Color: body gbcolor</title>
+<form>   
+<input type="search" placeholder="Search for any site"/>  
+</form> 
+</head>
+<body bgcolor="#90ee90">
+<h1>Background colour in HTML</h1>
+<style>
+
+body {    
+text-align: left;   
+background-color: blue;  
+}       
+ form{  
+  display: block;  
+  left: 40%;  
+  position: absolute;  
+  top: 420%;  
+}  
+ form2 {  
+  display: block;  
+  left: 100%;  
+  position: absolute;  
+  top: 200%;  
+}  
+ input[type=search]{  
+    border: 5px  orange;  
+    box-sizing: border-box;  
+    font-size:1em;  
+    height: 2em;  
+    margin-left: 10vw;  
+    padding: .5em;  
+    transition: all 2s ease-in;  
+    width: 30vw;  
+    z-index:1;  
+    &:focus {  
+      border: solid 3px #09f;        
+      outline: solid #fc0 2000px;  
+    }  
+  } 
+ 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+	color: blue;
+}
+ body {
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-top:1px #eaeaea solid; 
+}
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color:#4c4c4c;
+  padding: 0.5em 0.8em;
+  transition:0.3s; 
+}
+.menu ul li:hover:nth-child(1) { background-color: #ff007f; }
+.menu ul li:hover:nth-child(2) { background-color: #0000ff; }
+.menu ul li:hover:nth-child(3) { background-color: #ff0000; }
+.menu ul li:hover:nth-child(4) { background-color: #008000; }
+.menu ul li:hover:nth-child(5) { background-color: #ffff00; }
+.menu ul li:hover:nth-child(6) { background-color:  #000000; }
+.menu ul li a:hover, .menu ul li a :focus {
+   color:#fff;  
+}
+/*single Menu*/
+.single-menu ul li a {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.single-menu ul li a .icon {
+  font-size: 1.8em;
+  flex: 0 0 1.5em;
+  margin-right: 4px;
+}
+.single-menu ul li .text {
+  font-size: 1.8em;
+}
+.single-menu ul li .text span {
+  font-size: 40%;
+  display: block;
+  font-weight: lighter;
+}
+@media screen and (min-width: 60em) {
+  .single-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .single-menu ul li {
+    flex: 1 0 1.5em;
+    display: flex;
+  }
+}
+</style>
+</head>
+</head>
+
+<body>
+
+<!-- Menu de navegacao do site -->
+<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="pensamentos.html">Pensamentos</a>
+  <li><a href="cidade.html">Minha cidade</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+
+
+<!-- Conteudo -->
+<h1>Power rangers mighty morphin  </h1>
+
+<p>Top power rangers</p>
+<table>
+
+  <tr bgcolor="#808080" >
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <th><img src="top2.jpg" alt= image width="1800" height="350"/>
+</th></tr>
+
+<nav class="menu single-menu">
+  <ul>
+    
+    <li>
+      <a href="#" title="Home">
+        <div class="icon"><i class="icofont-coffee-mug"></i></div>
+          <div class="text">play all <span> power rangers pimk </span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" title="Home">
+        <div class="icon"><i class="icofont-sushi"></i></div>
+          <div class="text">Episodio <span>power rangers blue </span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" title="Home">
+        <div class="icon"><i class="icofont-fast-food"></i></div>
+          <div class="text">setup <span>power rangers red </span>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#" title="Home">
+        <div class="icon"><i class="icofont-pizza-slice"></i></div>
+          <div class="text">Especial features <span>power rangers green </span>
+        </div>
+      </a>
+    </li>
+ <li>
+      <a href="#" title="Home">
+        <div class="icon"><i class="icofont-pizza-slice"></i></div>
+          <div class="text">Especial features <span>power rangers yellow </span>
+        </div>
+      </a>
+    </li>
+ 
+ <li>
+      <a href="#" title="Home">
+        <div class="icon"><i class="icofont-pizza-slice"></i></div>
+          <div class="text">Especial features <span>power rangers black  </span>
+        </div>
+      </a>
+    </li>
+
+
+ </ul>
+   
+</th>
+  </tr>
+
+</table>
+
+
+ 
+
+
+<p>Raio power rangers </p>
+<table  class="center">
+
+  <tr  bgcolor="#808080" >
+    <th><img src="raio.jpg"alt= image1 height="600" width ="379"  aling= "right" /></th>
+    <th ><img src="top.jpg" alt= image2 height="600" width ="1020"  /></th>
+  <th><img src="corupition zone.jpg" alt= image3  height="600" width ="400"/></th>
+  </tr>
+ 
+  <tr bgcolor="#808080">
+    <td><img src="base2.jpg" alt= image4 height="800" width ="800" /></td>
+    <td>Yellow</td>
+    <td><form2 action="#">
+      <label for="lang">Language</label>
+      <select name="languages" id="lang" multiple>
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
+        <option value="golang">Golang</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+        <option value="C++">C++</option>
+        <option value="erlang">Erlang</option>
+      </select>
+      <input type="submit" value="Submit" />
+</form></td>
+  </tr>
+  <tr bgcolor="#808080">
+    <td><img src="mistcy.jpg"alt= image5 height="400" width ="400" /></td>
+    <td><img src="morpher.jpg" alt= image6 height="600" width ="300"/ ></td>
+    <td><img src="globo.jpg" alt=" logo" height="200" width ="200" align="right"></td>
+  </tr>
+   <tr bgcolor="#808080">
+    <td>
+<p style="text-align:center; " >Power Rangers é uma franquia de séries de televisão infanto-juvenil norte-americana. Foi criada em 1993 pela Saban Entertainment, que vendeu a franquia em 2002 para a BVS Entertainment em parceria com a Walt Disney Company, recuperando sua posse em 2010, após sete anos. Atualmente, após a recompra dos direitos, as séries são produzidas pela Saban Brands, LCC e pela SCG Power Rangers, LLC. A franquia está no ar até hoje adaptando as séries japonesas dos Super Sentais para o mercado norte-americano. Power Rangers já foi exibido desde seu início pela Fox Kids, Rede Globo, Jetix e Disney XD.
+
+Hoje, a franquia está sob os direitos da Nickelodeon (até meados de 2014), Rede Bandeirantes e agora do Cartoon Network.Desde o princípio de que Power Rangers deriva a maioria de suas filmagens das séries japonesas do gênero Super Sentai, ele apresenta muitas características diferente de outras séries de super-heróis. Cada série gira em torno de uma equipe de jovens recrutados e treinados por um mentor, para morfarem em Rangers, capazes de utilizar poderes especiais e pilotando as máquinas colossais denominados de Zords para derrotar contra as forças do mal que ameaçam a humanidade. No final de uma série, os Rangers sacrificam suas armas, Zords, ou poderes, a fim de derrotar um vilão principal que havia lutado durante a série. Por exemplo, em Mighty Morphin Power Rangers, Zordon recruta os "adolescentes com atitude" para aproveitar o poder de dinossauros para deter as forças malignas de Rita Repulsa.
+
+Quando eles "morfam" em Rangers poderosos usando um código de cores, roupas coladas e capacetes com viseiras opacas. Os costumes de cada equipe são quase idênticas com exceção de rangers individuais na cor e no design do capacete. Os Rangers morfados, geralmente, possuem uma força sobre humana, durabilidade e capacidade em combate de mão em mão. Alguns possuem habilidades sobre-humanas, tais como super-velocidade ou invisibilidade, algo relacionado atributamente com suas habilidades de um Ranger. Além disso, cada ranger indivíduo tem uma arma individual, bem como armas comuns sendo utilizados na luta de solo. Quando os inimigos crescem em tamanhos incríveis, Os Rangers utilizam Zords individuais que combinam-se num destemido e colossal Megazord. As equipes de Rangers são compostas por cinco (na maioria de temporadas) ou por três, porém, um ou mais rangers juntam-se a cada equipe. Cada equipe de Rangers, com poucas exceções, obedece a um conjunto geral de convenções, assim como no início do Mighty Morphin e as regras aplicadas e principais por alguns mentores como: Os heróis não podem usar seus poderes de Ranger para seu ganho pessoal ou para um duelo (a não ser forçado a fazê-lo), nem pode a revelar suas identidades de Power Rangers ao público em geral. A penalidade por desobedecer as regras, pelo menos em Mighty Morphin Power Rangers, seria a perda de seus poderes. Ao contrário dos Lightspeed Rangers que sejam um grupo de Resgate, eles podem revelar suas identidades, no caso do final de Power Rangers No Espaço, foram forçados a revelarem suas identidades depois que outras pessoas dizem ser Rangers quando Astronema havia colocado o mundo em risco.
+
+Assim como no Super Sentai, a paleta de cores de cada equipe de Power Rangers muda a cada série. Apenas as cores principais como Vermelho, Azul e Amarelo estão presente em todas as temporadas. As cores mais comuns que não aparecem todo ano são Rosa, Verde, Preto e Branco. Outras cores e denominações também aparecem ao longo da franquia. De acordo com a cor da designação-ranger, influencia no seu guarda-roupa (na vida real, um camarim) ao longo da série: roupas civis, que muitas vezes combinam em cada cor de um Ranger. De todas as temporadas de Power Rangers realizadas até o momento, atinge a marca de 106 rangers.
+</p>
+  <td>Yellow</td>
+    <td>orange</td>
+  </tr>
+ <tr bgcolor="#808080">
+    <td><img src="meio.jpg" alt= image7 height="100" width ="100" /></td>
+    <td> 
+<video width="320" height="240" controls>
+  <source src="power.mp4" type="video/mp4">
+  <source src="power.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+ </td> 
+    <td>Orange</td>
+  </tr>
+  <tr bgcolor="black">
+    <td><img src="rod.jpg" alt= image8  height="300" width ="700"/></td>
+    <td>orange</td>
+    <td>orange</td>
+  </tr>
+</table>
+
+<p>Tabela simples com caption</p>
+<table>
+  <caption>
+    power rangers mighty morphin 
+  </caption>
+  <tr>
+    <td>construida 19 de junho de 2024 </td>
+  </tr>
+</table>
+     
+   
+
+ </br>
+
+ </br>
+
+
+
+<p>Bem vindos à minha página estilizada!
+
+<p>Minha página não contém imagens, mas pelo
+menos está estilizada.
+Ela contém links, ainda que eles não levem
+a lugar algum…
+
+<p>Deveria haver mais textos aqui porém eu
+ainda não decidi o que escrever.
+
+<!-- Date e assine sua página, isto é educado! -->
+<address>Construida em 19 de julho de 2024<br>
+  por mim mesmo.</address>
+ 
+</body>
+</html>
